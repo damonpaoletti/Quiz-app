@@ -43,10 +43,52 @@ button {
     background-color: #ffffff;
     padding: 3.2em 1.7em;
     width: 80%;
-    max-width: ;
+    max-width: 38em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.7em;
+
+}
+
+.header{
+    margin-bottom: 1.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.7em;
+    border-bottom: 0.2em solid #c0bfd2;
+}
+
+.timer-div{
+    background-color: #e1f5fe;
+    width: 7.4em;
+    border-radius: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.em 1.7em;
+    
+}
+
+#next-button{
+    font-size: 2em;
+    margin-top: 1.6em;
+    background-color: #0a69ed;
+    color: #ffffff;
+    padding: 0.6em 1.8em;
+    border-radius: 0.3em;
+    float: right;
 }
 
 .hide{
     display: none;
 
+}
+
+#user-score{
+    font-size: 1.6em;
+    color: #ffffff;
 }
